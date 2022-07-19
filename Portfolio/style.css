@@ -11,6 +11,10 @@ body{
     transition: .4s;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
     /* ----Navigation and Hero Section---- */
 
 .hero{
