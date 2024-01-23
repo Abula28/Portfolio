@@ -1,263 +1,249 @@
-@media(max-width: 820px){
-    .toggle-button{
-        display: flex;
-    }
+/* FIRST UPLOAD JULY 19 2022 */
+@media (max-width: 820px) {
+  .toggle-button {
+    display: flex;
+  }
 
-    .nav-links{
-        display: none; 
-        width: 100%;
-    }
+  .nav-links {
+    display: none;
+    width: 100%;
+  }
 
-    .navbar{
-        flex-direction: column;
-        align-items: flex-start;
-    }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-    .nav-links ul{
-        flex-direction: column;
-        width: 100%;
-    }
+  .nav-links ul {
+    flex-direction: column;
+    width: 100%;
+  }
 
-    .nav-links li{
-        text-align: center;
-    }
+  .nav-links li {
+    text-align: center;
+  }
 
-    .nav-links.active{
-        display: flex;
-    }
+  .nav-links.active {
+    display: flex;
+  }
 
-    .info-text{
-        width: 50%;
-    }
+  .info-text {
+    width: 50%;
+  }
 
-    .info-text h3{
-        font-size: 90%;
-    }
+  .info-text h3 {
+    font-size: 90%;
+  }
 
-    .info-text h2{
-        font-size: 30px;
-    }
+  .info-text h2 {
+    font-size: 30px;
+  }
 
-    img{
-        width: 100%;
-        height: 100%;
-    }
+  img {
+    width: 100%;
+    height: 100%;
+  }
 
-    .main-about h1{
-        font-size: 55px;
-    }
+  .main-about h1 {
+    font-size: 55px;
+  }
 
-    .main-about h3{
-        font-size: 25px;
-    }
+  .main-about h3 {
+    font-size: 25px;
+  }
 
-    .about-par p{
-        font-size: 15px;
-    }
+  .about-par p {
+    font-size: 15px;
+  }
 
-    .icons i{
-        font-size: 500%;
-    }
+  .icons i {
+    font-size: 500%;
+  }
 
+  /* -----For skills section---- */
 
-    /* -----For skills section---- */
+  .main-skills h1 {
+    font-size: 55px;
+  }
 
-    .main-skills h1{
-        font-size: 55px;
-    }
+  .skill-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .skill-cards{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .skill-cards .cards {
+    width: 35%;
+    justify-content: center;
+  }
 
-    .skill-cards .cards{
-        width: 35%;
-        justify-content: center;
-    }
+  .cards p {
+    font-size: 90%;
+  }
 
-    .cards p {
-        font-size: 90%;
-    }
+  .cards i {
+    font-size: 110%;
+  }
 
-    .cards i {
-        font-size: 110%;
-    }
+  .level {
+    width: 95%;
+  }
 
-    .level{
-        width: 95%;
-    }
+  .level strong {
+    font-size: 90%;
+  }
 
-    .level strong{
-        font-size: 90%;
-    }
+  .level i {
+    font-size: 90%;
+  }
 
-    .level i{
-        font-size: 90%;
-    }
+  /* ---For hire an contact section--- */
+  .main-hire h1 {
+    font-size: 25px;
+  }
 
+  .hire-btn {
+    padding: 10px 25px 10px;
+  }
 
-    /* ---For hire an contact section--- */
-    .main-hire h1{
-        font-size: 25px;
-    }
-    
-    .hire-btn{
-        padding: 10px 25px 10px;
-    }
+  .main-contact h1 {
+    font-size: 25px;
+  }
 
-    .main-contact h1{
-        font-size: 25px;
-    }
+  .main-contact p {
+    font-size: 15px;
+  }
 
-    .main-contact p {
-        font-size: 15px;
-    }
-
-    .contact-icons i{
-        font-size: 20px;
-    }
-
+  .contact-icons i {
+    font-size: 20px;
+  }
 }
 
-@media(max-width: 730px){
-    .cards p {
-        font-size: 70%;
-    }
+@media (max-width: 730px) {
+  .cards p {
+    font-size: 70%;
+  }
 
-    .cards i {
-        font-size: 90%;
-    }
+  .cards i {
+    font-size: 90%;
+  }
 
-    .level{
-        width: 95%;
-    }
+  .level {
+    width: 95%;
+  }
 
-    .level strong{
-        font-size: 70%;
-    }
+  .level strong {
+    font-size: 70%;
+  }
 
-    .level i{
-        font-size: 70%;
-    }
+  .level i {
+    font-size: 70%;
+  }
 }
 
-@media(max-width: 550px){ 
+@media (max-width: 550px) {
+  .main-skills h1 {
+    font-size: 45px;
+  }
 
-    .main-skills h1{
-        font-size: 45px;
-    }
+  .cards p {
+    font-size: 50%;
+  }
 
-    
+  .cards i {
+    font-size: 90%;
+  }
 
-    .cards p {
-        font-size: 50%;
-    }
+  .level {
+    width: 95%;
+  }
 
-    .cards i {
-        font-size: 90%;
-    }
+  .level strong {
+    font-size: 50%;
+  }
 
-    .level{
-        width: 95%;
-    }
+  .level i {
+    font-size: 50%;
+  }
 
-    .level strong{
-        font-size: 50%;
-    }
+  /* ---For hire and contact section--- */
+  .main-hire h1 {
+    font-size: 15px;
+  }
 
-    .level i{
-        font-size: 50%;
-    }
+  .hire-btn {
+    padding: 5px 20px 5px;
+    font-size: 10px;
+  }
 
+  .main-contact h1 {
+    font-size: 20px;
+  }
 
-    /* ---For hire and contact section--- */
-    .main-hire h1{
-        font-size: 15px;
-    }
-    
-    .hire-btn{
-        padding: 5px 20px 5px;
-        font-size: 10px;
-    }
+  .main-contact p {
+    font-size: 10px;
+  }
 
-    .main-contact h1{
-        font-size: 20px;
-    }
+  .contact-icons i {
+    font-size: 15px;
+  }
 
-    .main-contact p {
-        font-size: 10px;
-    }
-
-    .contact-icons i{
-        font-size: 15px;
-    }
-
-    .contact-icons a{
-        margin: 15px;
-    }
+  .contact-icons a {
+    margin: 15px;
+  }
 }
 
-@media (max-width: 375px){
+@media (max-width: 375px) {
+  .main-about h1 {
+    font-size: 35px;
+  }
 
-    .main-about h1{
-        font-size: 35px;
-    }
+  .main-about h3 {
+    font-size: 15px;
+  }
 
-    .main-about h3{
-        font-size: 15px;
-    }
+  .about-par p {
+    font-size: 15px;
+  }
 
-    .about-par p{
-        font-size: 15px;
-    }
+  .icons i {
+    font-size: 300%;
+  }
 
-    .icons i{
-        font-size: 300%;
-    }
+  .main-skills h1 {
+    font-size: 35px;
+  }
 
+  .cards p {
+    font-size: 40%;
+    margin-bottom: 15px;
+    padding: 0px 5px 0px;
+  }
 
-    .main-skills h1{
-        font-size: 35px;
-    }
+  .cards i {
+    font-size: 70%;
+  }
 
+  .level {
+    width: 95%;
+  }
 
-    .cards p {
-        font-size: 40%;
-        margin-bottom: 15px;
-        padding: 0px 5px 0px;
-    }
+  .level strong {
+    font-size: 50%;
+  }
 
-    .cards i {
-        font-size: 70%;
-    }
-
-    .level{
-        width: 95%;
-    }
-
-    .level strong{
-        font-size: 50%;
-    }
-
-    .level i{
-        font-size: 40%;
-    }
-
-
+  .level i {
+    font-size: 40%;
+  }
 }
 
+@media (max-width: 280px) {
+  .about-par p {
+    font-size: 5px;
+  }
 
-@media (max-width: 280px){
-    .about-par p{
-        font-size: 5px;
-    }
-    
-    .level i{
-        font-size: 10px;
-    }
-    
+  .level i {
+    font-size: 10px;
+  }
 }
-
