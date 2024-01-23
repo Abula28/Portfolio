@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    transition: .4s;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+    /* ----Navigation and Hero Section---- */
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/Black-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(22, 22, 22);
+}
+
+.logo{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin: .5rem;
+    color: White;
+    cursor: pointer;
+}
+
+.logo span{
+    color: red;
+}
+
+.nav-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li{
+    list-style: none;
+    margin: 20px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px; 
+    font-weight: bold;
+    text-transform: capitalize;
+    text-shadow: 3px 8px 15px #adadad;
+}
+
+.nav-links li a:hover{
+    color: red;
+    transition: .4s;
+    text-shadow: 3px 8px 15px red;
+}
+
+.toggle-button{
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.info{
+    width: 100%;
+    height: 92%;
+}
+
+.colored{
+    color: red;
+}
+
+.main-info{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.info-text{
+    margin-left: 5%;
+}
+
+.info-text h3 , h2{
+    color: white;
+    text-shadow: 3px 8px 15px #adadad;
+}
+
+.info-text h2{
+    font-size: 55px;
+    text-shadow: 3px 8px 15px #acacac;
+}
+
+.info-text h3{
+    color: white;
+    font-size: 25px;
+}
+
+
+
+.main-info img{
+    width: 20%;
+    border-radius: 30px;
+    box-shadow: rgba(183, 183, 216, 0.25) 0px 50px 100px -20px, rgba(163, 162, 162, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+
+
+
+   /* ----About Section---- */
+
+.about{
+    width: 100%;
+    /* height: 100vh; */
+    background-color: #181818;
+}
+
+.main-about h1{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-about h3{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.about-par{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left; 
+    width: 50%;
+    margin: auto;
+    padding: 50px 0px 0px;
+}
+
+.about-par p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+}
+
+.icons{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.icons i {
+    margin: 2%;
+    font-size: 1000%;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    transition: .4s;
+}
+
+.fa-html5{
+    color: rgb(255, 81, 0);
+    box-shadow: rgb(255, 81, 0) 0px 10px 36px 0px, rgb(255, 81, 0) 0px 0px 0px 1px;
+}
+
+.fa-css3-alt{
+    color: aqua;
+    box-shadow: aqua 0px 10px 36px 0px, aqua 0px 0px 0px 1px;
+}
+
+.fa-js{
+    color: yellow;
+    box-shadow: yellow 0px 10px 36px 0px, yellow 0px 0px 0px 1px;
+}
+
+.fa-html5:hover{
+    background-color: rgb(255, 81, 0);
+    color: white;
+}
+
+.fa-css3-alt:hover{
+    background-color: aqua;
+    color: white;
+}
+
+.fa-js:hover{
+    background-color: yellow;
+    color: white;
+}
+
+
+
+
+   /* ----Skills section---- */
+
+
+.skills{
+    width: 100%;
+    /* height: 100vh; */
+    background-color: #141414;
+}
+
+.main-skills h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 3%;
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.skill-cards{
+    display: flex;
+    margin-top: 10%;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.skill-cards .cards{
+    width: 18%;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 32, 80);
+    margin: 15px; 
+    /* box-shadow: rgb(255, 32, 80) 5px 5px 15px; */
+    box-shadow: rgb(255, 32, 80) 0px 10px 15px -3px, rgb(255, 32, 80) 0px 4px 6px -2px;
+    transition: .4s;
+    margin-bottom: 10%;
+}
+
+.cards:hover{
+    box-shadow: rgb(255, 32, 80) 5px 5px 15px;
+}
+
+.cards i{
+    display: flex;
+    justify-content: center;
+    font-size: 250%;
+}
+
+.fa-code{
+    color: orange;
+}
+
+.fa-css3{
+    color: rgb(0, 174, 255);
+}
+
+.fa-js-square{
+    color: rgb(255, 217, 0);
+}
+
+.cards  h4{
+    font-size: 100%;
+    margin: 10px;
+    color: red;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 9px 7px 12px red;
+}
+
+.cards p {
+    color: rgb(255, 0, 98);
+    padding: 0px 10px 10px;
+}
+
+.level{
+    display: flex;
+    margin-top: 12px;
+    padding: 0px 10px 0px;
+}
+
+.level strong{
+    color: white;
+}
+
+.level i{
+    font-size: 20px;
+    margin: 5px;
+    margin-top: 3px;
+    color: yellow;
+}
+
+
+/* ----Hire section---- */
+
+.hire{
+    width: 100%;
+    height: 30vh;
+    background-color: #252525;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-hire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5%;
+}
+
+.main-hire h1{
+    font-size: 35px;
+    color: white;
+}
+
+.hire-btn{
+    margin-top: 16px;
+    padding: 15px 30px 15px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    font-size: 95%;
+    cursor: pointer;
+    transition: .4s;
+    text-decoration: none;
+}
+
+.hire-btn:hover{
+    background-color: white;
+    color: red;
+    box-shadow: white 4px 4px 8px 0px;
+}
+
+.hire-btn:active{
+    color: white;
+    background-color: red;
+    box-shadow: red 4px 4px 8px 0px;
+}
+
+.contact{
+    width: 100%;
+    height: 30vh;
+    background-color: #141414;
+}
+
+.main-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5%;
+}
+
+.main-contact h1{
+    color: white;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-contact p{
+    color: rgb(255, 0, 98);
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.contact-icons{
+    margin-top: 25px;
+}
+
+.contact-icons i{
+    font-size: 40px;
+    padding: 5px 10px 5px;
+    border-radius: 50%;
+    transition: .4s;
+}
+
+.contact-icons a{
+    margin: 25px;
+    cursor: pointer;
+}
+
+.fa-facebook{
+    color: #0048b5;
+}
+
+.fa-instagram{
+    color: #ff0239;
+}
+
+.fa-google{
+    color: #ffa600;
+}
+
+.fa-linkedin{
+    color: #1576d8;
+}
+
+.fa-facebook:hover{
+    background-color: #0048b5;
+    color: white;
+    border: #0048b5;
+}
+
+.fa-instagram:hover{
+    background-color: #ff0239;
+    color: white;
+}
+
+.fa-google:hover{
+    background-color: #ffa600;
+    color: white;
+    border: #ffa600;
+}
+
+.fa-linkedin:hover{
+    background-color: #1576d8;
+    color: white;
+    border: 2px solid #1576d8;
+}
+
+
